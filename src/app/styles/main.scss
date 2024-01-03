@@ -1,0 +1,22 @@
+@import "./mixins";
+
+@import "primevue/resources/themes/lara-light-indigo/theme.css";
+// @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@include font-face("Lato", "Lato-Black", 900, "normal");
+@include font-face("Lato", "Lato-ExtraBold", 800, "normal");
+@include font-face("Lato", "Lato-Bold", 700, "normal");
+@include font-face("Lato", "Lato-SemiBold", 600, "normal");
+@include font-face("Lato", "Lato-Medium", 500, "normal");
+@include font-face("Lato", "Lato-Regular", 400, "normal");
+@include font-face("Lato", "Lato-Light", 300, "normal");
+@include font-face("Lato", "Lato-ExtraLight", 200, "normal");
+@include font-face("Lato", "Lato-Thin", 100, "normal");
+
+html {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
